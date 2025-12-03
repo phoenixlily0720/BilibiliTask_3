@@ -234,7 +234,7 @@ public class DailyTask implements Task {
         try {
             // 使用新的WBI签名API获取每日任务状态
             JSONObject params = new JSONObject();
-            JSONObject response = Request.getWithWbi("https://api.bilibili.com/x/member/web/exp/reward", params);
+            JSONObject response = Request.getWithWbi("https://api.bilibili.com/x/member/web/exp/log", params);
 
             if ("0".equals(response.getString("code"))) {
                 return response.getJSONObject("data");
