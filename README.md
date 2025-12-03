@@ -1,4 +1,5 @@
 <div align="center">
+ 喵。
 <h1 align="center">Bilibili助手 (兼容性修复版)</h1>
 
 ## ⚠️ 重要说明
